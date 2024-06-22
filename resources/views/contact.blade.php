@@ -17,11 +17,11 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="inputPassword4">Nome</label>
-            <input type="text" name="nome" class="form-control" id="inputPassword4" placeholder="Seu nome" value="Samuel">
+            <input type="text" name="nome" class="form-control" id="inputPassword4" placeholder="Seu nome" value="">
         </div>
         <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
-            <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email" value="smuelfeijo@gmail.com">
+            <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email" value="">
         </div>
     </div>
 
