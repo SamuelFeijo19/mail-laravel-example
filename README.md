@@ -1,47 +1,27 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Envio de E-mail com Laravel
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este projeto Laravel é uma demonstração do envio de e-mails e da utilização de filas para um processamento eficiente de trabalhos em segundo plano. Ele inclui os seguintes recursos:
 
-## About Laravel
+- **Envio de E-mail:** Demonstra como enviar e-mails usando a funcionalidade de e-mail integrada do Laravel.
+- **Gerenciamento de filas:** Utiliza o sistema de filas da Laravel para lidar com tarefas demoradas, garantindo uma experiência de usuário mais suave.
+- **Processamento de trabalhos:** Ilustra o processo de envio de trabalhos para filas e processamento em segundo plano.
+  
+## 🚀 Começando
 
-Laravel is a web application framework with expressive, elegant syntax. It provides a solid foundation for various web development tasks, including sending emails and handling queues efficiently.
+Para iniciar este projeto, execute estas etapas:
 
-## Features
+1. Clone o repositório.
+2. Instale dependências usando o Composer: `composer install`.
+3. Configure suas variáveis de ambiente, incluindo configuração de email e configurações de conexão de fila.
+4. Migre o banco de dados: `php artisan migrate`.
+5. Inicie a fila: `php artisan queue:work`.
+6. Você está pronto para enviar e-mails e processar trabalhos em segundo plano!
 
-This Laravel project is a simple demonstration of sending emails and utilizing queues for efficient background job processing. It includes the following features:
+## 🛠️ Construído com
 
-- **Email Sending:** Demonstrates how to send emails using Laravel's built-in email functionality.
-- **Queue Management:** Utilizes Laravel's queue system to handle time-consuming tasks, ensuring smoother user experience.
-- **Job Processing:** Illustrates the process of dispatching jobs to queues and processing them in the background.
+* [Laravel](https://laravel.com) - O framework web usado
+* [Composer](https://getcomposer.org/) - Gerente de Dependência
+* [PHP 8.2](https://www.php.net/releases/8.2/en.php) - Linguagem de Programação e sua versão
 
-## Getting Started
-
-To get started with this project, follow these steps:
-
-1. Clone the repository.
-2. Install dependencies using Composer: `composer install`.
-3. Set up your environment variables, including mail configuration and queue connection settings.
-4. Migrate the database: `php artisan migrate`.
-5. Start the queue worker: `php artisan queue:work`.
-6. You're ready to send emails and process jobs in the background!
-
-## Contributing
-
-Thank you for considering contributing to this project! If you'd like to contribute, please follow the guidelines outlined in the [contribution guide](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-To ensure a welcoming community, please review and adhere to the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover any security vulnerabilities within this project, please report them via email to the project maintainer at [maintainer@example.com](mailto:maintainer@example.com). All vulnerabilities will be promptly addressed.
-
-## License
-
-This project is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+⌨️ por [Samuel Feijó](https://github.com/SamuelFeijo19)
